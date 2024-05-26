@@ -6,7 +6,7 @@ using TMPro;
 
 public class OpenPC : MonoBehaviour
 {
-
+    public GameObject Player;
     public GameObject usePC;
 
     public GameObject playerCamera;
@@ -22,6 +22,7 @@ public class OpenPC : MonoBehaviour
             {
                 playerCamera.SetActive(false);
                 pcCamera.SetActive(true);
+                PcOpened();
             }
         }
 
@@ -34,6 +35,14 @@ public class OpenPC : MonoBehaviour
             usePC.SetActive(false);
         }
     }
+
+    public void PcOpened()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        Player.SetActive(false);
+    }
+
 
     
 }

@@ -330,7 +330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000038146973, y: -58.1}
+  m_AnchoredPosition: {x: 0.0000038146973, y: -58}
   m_SizeDelta: {x: 200, y: 203.51613}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &135831134
@@ -385,7 +385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_TagString
@@ -740,6 +740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6534f0833c58a244b533b4bf7ee1cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 2056949390}
   usePC: {fileID: 2095659588}
   playerCamera: {fileID: 1820938672}
   pcCamera: {fileID: 1442702575}
@@ -1423,7 +1424,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1, y: 0.931}
+  m_AnchoredPosition: {x: 1.353, y: 1.537}
   m_SizeDelta: {x: 200, y: 112.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &892743381
@@ -2211,7 +2212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1442702576
 AudioListener:
   m_ObjectHideFlags: 0
@@ -3711,6 +3712,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016817770}
   m_CullTransparentMesh: 1
+--- !u!1 &2056949390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+  m_PrefabInstance: {fileID: 202975827}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2095659588
 GameObject:
   m_ObjectHideFlags: 0
